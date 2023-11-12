@@ -54,9 +54,9 @@ if valor < MIN_VALUE_TO_EXTRA_PRODUCT
 
         puts "Valor do produto extra (#{product_optional}):"
 
-        valor_optional = gets.to_f
+        valor_opcional = gets.to_f
 
-        acrescimo += valor_optional
+        acrescimo += valor_opcional
     end
 end
 
@@ -68,11 +68,11 @@ puts "Porcentagem de desconto:"
 
 desconto = gets.to_f
 
-valor_desconto = desconto / 100
+valor_do_desconto = desconto / 100
 
-valor_desconto *= valor
+valor_do_desconto *= valor
 
-valor_com_desconto = valor - valor_desconto
+valor_com_desconto = valor - valor_do_desconto
 
 system 'clear'
 
