@@ -18,13 +18,13 @@ puts "-> #{SHOP_NAME}"
 
 puts "Coloque o nome do produto:"
 
-product = gets.to_s
+product = gets.to_s.upcase
 
 system 'clear'
 
 puts "-> #{SHOP_NAME}"
 
-puts "Coloque o valor do produto:"
+puts "Coloque o valor do produto (#{product}):"
 
 valor = gets.to_f
 
@@ -52,7 +52,7 @@ if valor < MIN_VALUE_TO_EXTRA_PRODUCT
 
         puts "-> #{SHOP_NAME}"
 
-        puts "Valor do produto extra:"
+        puts "Valor do produto extra (#{product_optional}):"
 
         valor_optional = gets.to_f
 
