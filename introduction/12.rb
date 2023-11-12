@@ -18,10 +18,7 @@ while em_aula do
     notas << gets.to_f
 
     puts 'A aula ja acabou? (S/N)'
-    acabou = gets.to_s.strip.upcase == "S"
-    if acabou
-        em_aula = false
-    end
+    em_aula = gets.to_s.strip.upcase != "S"
 
 end
 
