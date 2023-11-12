@@ -1,5 +1,9 @@
 # Refactor from 06.rb
 
+require 'byebug'
+
+debugger
+
 MIN_VALUE_TO_EXTRA_PRODUCT = 10
 SHOP_NAME = "Carrera's Loja"
 LF_STRING = "----------------------------"
