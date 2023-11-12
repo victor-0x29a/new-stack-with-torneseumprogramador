@@ -8,6 +8,10 @@ x = gets.to_i
 
 debugger
 
+if (x > 5 && x < 10) || (x > 70 && x < 120)
+    puts "issaeh"
+end
+
 if (1..5).include?(x)
     puts "Esta entre 1 e 5"
 elsif x == 9
